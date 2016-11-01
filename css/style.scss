@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5 !important;
+    background-color: #f5f5f5;
     letter-spacing: 0.5px;
 }
 
@@ -68,10 +68,13 @@ $d-pink: #D81B60;
     z-index: 999;
     width: 100%;
     i {
-        color: #fff;
+        color: rgba(255, 255, 255, .6);
         font-size: 20px;
         padding: 3px 20px 0px 20px;
         line-height: 54px;
+    }
+    i:hover {
+        color: #fff;
     }
 }
 
@@ -85,7 +88,7 @@ $d-pink: #D81B60;
     .box {
         margin: 30px 0;
         display: block;
-        height: 350px;
+        height: 320px;
         img {
             width: 100%;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -158,6 +161,25 @@ a.title-s {
 
 .separator {
     margin: 0 5px;
+}
+
+.nightmode {
+    .navbar { 
+        background-color: #171717;
+    }
+    .title {
+        background-color: #000;
+    }
+    body {
+        
+    background-color: #171717;
+    }
+    p {
+        color: #eee;
+    }
+    footer {
+        background-color: #000;
+    }
 }
 
 @media screen and (max-width:1200px) {

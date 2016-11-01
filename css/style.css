@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f5f5 !important;
+  background-color: #f5f5f5;
   letter-spacing: 0.5px; }
 
 p {
@@ -56,10 +56,12 @@ p {
   z-index: 999;
   width: 100%; }
   .navbar i {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
     padding: 3px 20px 0px 20px;
     line-height: 54px; }
+  .navbar i:hover {
+    color: #fff; }
 
 .fixed {
   position: fixed;
@@ -70,7 +72,7 @@ p {
   .content .box {
     margin: 30px 0;
     display: block;
-    height: 350px; }
+    height: 320px; }
     .content .box img {
       width: 100%;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -126,6 +128,17 @@ a.title-s {
 
 .separator {
   margin: 0 5px; }
+
+.nightmode .navbar {
+  background-color: #171717; }
+.nightmode .title {
+  background-color: #000; }
+.nightmode body {
+  background-color: #171717; }
+.nightmode p {
+  color: #eee; }
+.nightmode footer {
+  background-color: #000; }
 
 @media screen and (max-width: 1200px) {
   .content .box img {

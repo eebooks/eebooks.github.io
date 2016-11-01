@@ -22,3 +22,11 @@ function windowSize() {
 $(window).load(windowSize);
 $(window).resize(windowSize);
 $(window).scroll(windowSize);
+
+$(document).ready(function(){
+    $('.night').click(function(e){
+        e.preventDefault();
+        console.log('!!!');
+        $('html').toggleClass('nightmode');
+    });
+});
