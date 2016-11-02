@@ -84,6 +84,7 @@ $d-pink: #D81B60;
 }
 
 .content {
+    min-height: 320px;
     margin-top: 30px;
     .box {
         margin: 30px 0;
@@ -125,6 +126,9 @@ footer {
         font-size: 10px;
         text-transform: uppercase;
     }
+    .footer {
+        padding-left: 45px;
+    }
 }
 
 a.title-s {
@@ -149,6 +153,12 @@ a.title-s {
     }
     a {
         color: #3F51B5;
+    }
+    li {
+        color: #616161;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 200;
     }
     .new {
         padding-bottom: 60px;
@@ -203,7 +213,7 @@ a.title-s {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .navbar-default .navbar-nav > li > a.n-open {
         border-bottom: 0;
     }
@@ -238,6 +248,7 @@ a.title-s {
     }
     .content {
         margin-top: 0;
+        min-height: 540px;
     }
     footer h3,
     footer p {

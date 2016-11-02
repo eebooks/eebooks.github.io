@@ -26,7 +26,6 @@ $(window).scroll(windowSize);
 $(document).ready(function(){
     $('.night').click(function(e){
         e.preventDefault();
-        console.log('!!!');
         $('html').toggleClass('nightmode');
     });
 });
